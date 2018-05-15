@@ -27,6 +27,7 @@ import java.util.*
 
 @SpringBootApplication
 class AtomistKotlinTestApplication {
+    
 
     @Bean
     fun runner(mr: MovieRepository) = ApplicationRunner {
